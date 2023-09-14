@@ -83,13 +83,6 @@ body {
     margin: 0px;
 }
 
-.description button {
-    width: fit-content;
-    font-size: 16px;
-    padding: 8px 32px 8px 32px;
-    border-radius: 12px;
-}
-
 .information h2 {
     font-size: 36px;
     font-weight: bolder;
@@ -142,8 +135,43 @@ body {
     margin-top: 24px;
 }
 
+.action {
+    background-color: #3882f6;
+    color: #f9faf8;
+    display: flex;
+    margin: 120px 400px 120px 400px;
+    padding: 56px 96px 56px 96px;
+    border-radius: 24px;
+    justify-content: space-between;
+}
+
+.action .left-text h2 {
+    margin: 0;
+    padding: 0;
+}
+.action .left-text {
+    display: flex;
+    flex-direction: column;
+}
+
 .header, .information, .quote {
     padding-left: 400px;
     padding-right: 400px;
 }
+
+button {
+    width: fit-content;
+    font-size: 16px;
+    padding: 8px 32px 8px 32px;
+    border-radius: 12px;
+    background-color: #3882f6;
+    color: #f9faf8;
+    font-weight: bold;
+}
+
+.description button {
+    border: none;
+}
+
+
 
