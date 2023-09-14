@@ -154,11 +154,6 @@ body {
     flex-direction: column;
 }
 
-.header, .information, .quote {
-    padding-left: 400px;
-    padding-right: 400px;
-}
-
 button {
     width: fit-content;
     font-size: 16px;
@@ -167,10 +162,33 @@ button {
     background-color: #3882f6;
     color: #f9faf8;
     font-weight: bold;
+    border-style: solid;
+}
+
+button:hover {
+    background-color: #2454a0;
 }
 
 .description button {
     border: none;
+}
+
+.action button {
+    border-color: #f9faf8;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #e5e7eb;
+    padding: 40px 0;
+
+}
+
+.header, .information, .quote, .footer {
+    padding-left: 400px;
+    padding-right: 400px;
 }
 
 
